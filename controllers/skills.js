@@ -21,7 +21,7 @@ function deleteSkill(req, res) {
   }
   
   function newSkill(req, res) {
-    res.render('/new');
+    res.render('skills/new');
   }
 
 function show(req, res) {

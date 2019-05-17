@@ -13,9 +13,7 @@ module.exports = {
 };
 
 function deleteOne(id) {
-    //always console log so you know what you get
-    console.log(skills[id])
-    skills.slice(id, 1);
+    skills.splice(id - 1 );
   }
   
   function create(skill) {
